@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XBPerson.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    XBPerson *p  = [XBPerson new];
+    p.name = @"小王";
+    [p run];
 }
 
 

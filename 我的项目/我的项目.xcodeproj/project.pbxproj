@@ -13,6 +13,7 @@
 		31164D331ED50B71009E09F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31164D311ED50B71009E09F6 /* Main.storyboard */; };
 		31164D351ED50B71009E09F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31164D341ED50B71009E09F6 /* Assets.xcassets */; };
 		31164D381ED50B71009E09F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31164D361ED50B71009E09F6 /* LaunchScreen.storyboard */; };
+		31164D421ED50BB0009E09F6 /* XBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 31164D411ED50BB0009E09F6 /* XBPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		31164D341ED50B71009E09F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31164D371ED50B71009E09F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31164D391ED50B71009E09F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31164D401ED50BB0009E09F6 /* XBPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPerson.h; sourceTree = "<group>"; };
+		31164D411ED50BB0009E09F6 /* XBPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		31164D3F1ED50B7F009E09F6 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				31164D401ED50BB0009E09F6 /* XBPerson.h */,
+				31164D411ED50BB0009E09F6 /* XBPerson.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			files = (
 				31164D301ED50B71009E09F6 /* ViewController.m in Sources */,
 				31164D2D1ED50B71009E09F6 /* AppDelegate.m in Sources */,
+				31164D421ED50BB0009E09F6 /* XBPerson.m in Sources */,
 				31164D2A1ED50B71009E09F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
